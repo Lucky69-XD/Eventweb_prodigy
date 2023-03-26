@@ -1,62 +1,255 @@
-
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Springspree 2023</title>
+    <title>Mood Indigo 2023</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Springspree- kala dhvani</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#sponsers">Sponsers</a></li>
-            </ul>
+    <header class="header">
+        <logo><br>
+        <img style="float: right;" src="img/logo 1.jpg" alt="logo" width="150"/>
+        </logo>
+        <h1><b id="logon">
+          Mood Indigo</b></h1>
+        <br>
+        
+                <!-- input tag -->
+	<input id="searchbar" onkeyup="search_event()" type="text"
+  name="search" list="list" placeholder="Search events..">
+
+<datalist id='list'>
+  <option value="Raj and DK Film making workshop">Raj and DK Film making workshop</option>
+  <option value="Karaoke and silent disco">Karaoke and silent disco</option>
+  <option value="Mood indigo got talent">Mood indigo got talent</option>
+  <option value="Anubhav singh bassi">Anubhav singh bassi</option>
+  <option value="Salsa and garba workshop">Salsa and garba workshop</option>
+  <option value="Chreonite">Chreonite</option>
+  <option value="Samay raina">Samay raina</option>
+  <option value="Into the huanoverse">Into the huanoverse</option>
+  <option value="How to use AI and what is best sector to get into keeping ai in mind">How to use AI and what is best sector to get into keeping ai in mind</option>
+  <option value="psychology of UI and UX by Ansh Mehra">psychology of UI and UX by Ansh Mehra</option>
+  <option value="How to grow your distribution onn media platforms by Vinamre Kasanaa">How to grow your distribution onn media platforms by Vinamre Kasanaa</option>
+</datalist>
+      <nav class="navbar">
+          
+      <ul>
+          <li><a href="#about">About</a></li>&emsp14;&emsp14;&emsp14;
+          <li><a href="#events">Events</a></li>&emsp14;&emsp14;&emsp14;
+          <li><a href="#contact">Contact Us</a></li>&emsp14;&emsp14;&emsp14;
+          <li><a href="#follow">Follow us on</a></li>
+      </ul>
+
+
+<!-- linking javascript -->
+<script src="./animals.js"></script>
         </nav>
     </header>
-    <main>
-        <section id="about">
-            <h2>About Springspree</h2>
-            <p>Springspree is one f the biggest cultural fest for anyone who loves music, art, and technology. Springspree is 3 day event where students discover their passion and , discover new artists, or learn from experts, ProdigProdigy is a one-day festival that showcasey has something for everyone.</p>
+ 
+
+    
+    
+    
+    <main class="main">
+        <section id="about"><br>
+            <h2>About </h2>
+            <p><div class="about">
+                MoodIndigo is one of the biggest cultural fest for anyone who loves music, art, and technology. MoodIndigo is 4 day event where students discover their passion, discover new artists, learn from experts.. etc..</div></p><br><br>
         </section>
-        <section id="subevents">
-            <h2>Subevents</h2>
-            <p>:</p>
-            <ul>
-                <li>Music Stage: </li>
-                <li>Art Gallery: </li>
-                <li>Tech Zone: </li>
-            </ul>
-        </section>
+        <section id="events">
+            <h2>Events:</h2>
+            <p>There are many events happening in these 4 days. The list goes on like this....</p>
+            <div class="outer">
+                <div class="inner">
+                <img
+                  src="img/img 1.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3><b> Raj and DK Filmmaking workshop: </b></h3><br>
+                  <p>
+                    Come learn about filmaking from the legends themselves, Raj and DK. They are known for their famous Family Man web series starring Manoj Bajpayee and Priyamani and recently launched Farzi star........<br>
+                    Limited seats available for workshop so hurry upp!!! 
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img 
+                  src="img/img 2.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3><b>Karaoke and silent disco: </b></h3><br>
+                  <p>
+                    Ever felt leftout because you like partying and your friends like jamming to someone singing. Okay no more worries :) We are back with karaoke but this time along with Silent disco for people who like partying.
+                    Register here so that you will get headsets to participate 
+                    in Silent Disco
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 3.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3><b>Mood Indigo got talent: </b></h3><br>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 4.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3><b>Anubhav singh bassi</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 5.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3><b>salsa garba workshop</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 6.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3><b>choreonite</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 7.jpg"
+                  alt="image missing"
+                />
+                <div id="raina">
+                  <h3><b>samay raina</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 8.jpg"
+                  alt="image missing"
+                />
+                <div id="humo">
+                  <h3><b>into the humorverse</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 9.jpg"
+                  alt="image missing"
+                />
+                <div id="AI">
+                  <h3><b>How to use AI and what is best sector to get into keepin AI in mind? by varun mayya</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="img/img 10.jpg"
+                  alt="image missing"
+                />
+                <div id="psyc">
+                  <h3><b>Psychology of UX and UI by ansh mehra</b></h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div><div class="inner">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample96.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3>Event 1</h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div>
+              <div class="inner">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample96.jpg"
+                  alt="image missing"
+                />
+                <div>
+                  <h3>Event 1</h3>
+                  <p>
+                    This event is about... This event is about... This event is about...
+                    This event is about...
+                  </p>
+                </div>
+                <!-- link to full event page -->
+                <a href="https://rroll.to/b4xEkR">Link : <i><u>Register Now</u></i></a>
+              </div>
+            
+            </div>
+        </section><br><br>
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback about Springspree, feel free to contact us using the form below or follow us on social media.</p>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <h2>&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;Contact Us</h2>
+            <p>If you have any questions or feedback about MoveIndigo, feel free to contact us by mailing us to tatelovesgreta80085@bugatti.com or follow us on social media.</p>
+            <br>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-
-            <p>Follow us on:</p>
+        </section>  
+          <section id="follow">
+            <p><h2><b>Follow us on:</b></h2></p>
             <ul>
-                <li><a href="https://www.facebook.com/nitw.springspree/">Facebook</a></li>
-                <li><a href="https://twitter.com/ss_nitw">Twitter</a></li>
-                <li><a href="https://www.instagram.com/springspree.nitw/?hl=en">Instagram</a></li>
+                <li><a href="https://www.facebook.com/iitbombay.moodi?mibextid=ZbWKwL" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/ss_nitw" target="_blank">Twitter</a></li>
+                <li><a href="https://twitter.com/iitb_moodi?t=https://www.instagram.com/iitbombay.moodi/?hl=en" target="_blank">Instagram</a></li>
             </ul>
-
         </section>
 
        
@@ -67,4 +260,3 @@
 
 </body>
 </html>
-```
