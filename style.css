@@ -12,6 +12,7 @@
     --main-color:#3867d6;
 }
 *{
+    margin-top: auto;
     color:#f4f4f4;
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
@@ -35,12 +36,12 @@ body{
     flex-wrap: wrap;
   }
 .header{
-    position: fixed;
+    position: relative;
     top:0; left: 0; right: 0;
     z-index: 1000;
     background: #000101;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding:1.5rem 9%;
 }
 .header .navbar{
@@ -72,7 +73,7 @@ margin-right: 5rem;
   }
 .main{
     margin-left: 40px;
-    margin-top: 25%;
+    margin-top: 50px;
 }
 .hello .Line{
     display: inline;
